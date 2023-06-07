@@ -44,4 +44,7 @@ public class AccountBancario {
             System.out.println("Tipo transazione non riconosciuto");
         }
     }
+    public void mostraSaldo() {
+        System.out.println(this.saldo);
+    }
 }
